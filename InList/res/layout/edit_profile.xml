@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg" >
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp" >
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/editFirst"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/fname"
+                    android:singleLine="true"
+                    android:inputType="textCapWords"
+                    android:textColor="@color/light_yellow"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/editLast"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                     android:inputType="textCapWords"
+                    android:hint="@string/lname"
+                    android:singleLine="true"
+                    android:textColor="@color/light_yellow"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/l1"
+            android:layout_marginTop="20dp"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textColor="@color/light_yellow"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editEmail"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Phno"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColor="@color/light_yellow"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editPhone"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_yellow"
+            android:text="@string/update"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

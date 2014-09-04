@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_profile"
+        android:showAsAction="never"
+        android:title="@string/mn_profile"/>
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:title="@string/mn_settings"/>
+    <item
+        android:id="@+id/action_terms"
+        android:showAsAction="never"
+        android:title="@string/mn_terms"/>
+    <item
+        android:id="@+id/action_login"
+        android:showAsAction="never"
+        android:title="@string/mn_login"/>
+    <item
+        android:id="@+id/action_signup"
+        android:showAsAction="never"
+        android:title="@string/mn_signup"/>
+    <item
+        android:id="@+id/action_concierge"
+        android:icon="@drawable/concierge_icon"
+        android:showAsAction="always"/>
+
+</menu>

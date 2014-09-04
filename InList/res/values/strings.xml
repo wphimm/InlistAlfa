@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InList</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Action Bar</string>
+    <string name="btn_send_message">Send Message</string>
+
+    <!-- Activity titles -->
+    <string name="activity_location_found">Location Found</string>
+    <string name="activity_login"></string>
+
+    <!-- Action Bar action items -->
+    <string name="action_search">Sarch</string>
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Check for Updates</string>
+    <string name="mn_profile">Profile</string>
+    <string name="mn_settings">Settings</string>
+    <string name="mn_terms">Terms of Use</string>
+    <string name="mn_login">Login</string>
+    <string name="mn_signup">Sign Up</string>
+    <string name="logout">LOG OUT</string>
+    <string name="nocard">ADD A CARD</string>
+    <string name="edit">EDIT</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search color..</string>
+
+    <!-- Splash - Leading Screen -->
+    <string name="skip_nw"><u><b><i>Skip for now</i></b></u></string>
+
+    <!-- Invite Screen -->
+    <string name="invite_first_name">Invitee\'s First Name</string>
+    <string name="invite_last_name">Invitee\'s Last Name</string>
+    <string name="invite_email">Invitee\'s Email Address</string>
+
+    <!-- Change Password Screen -->
+    <string name="chng_current_pwd">Current Password</string>
+    <string name="chng_new_pwd">New Password</string>
+    <string name="chng_cinfrm_pwd">Confirm Password</string>
+
+    <!-- Billing Details Screen - Credit Card Detail -->
+    <string name="bill_no_card_text">You currently don\'t have any cards stored. Why not add a card now to save you doing it later.</string>
+
+    <!-- LOGIN -->
+    <string name="email_address">Email Address</string>
+    <string name="pwd">Password</string>
+    <string name="or">OR</string>
+    <string name="forgot_pwd">Forgot Password?</string>
+    <string name="log_in_fb">LOG IN WITH FACEBOOK</string>
+
+    <!-- SIGN UP -->
+    <string name="sign_up">SIGN UP</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="Phno">Phone Number</string>
+    <string name="pls_answer">Please Enter Answer</string>
+    <string name="req_vip_mem">REQUEST VIP MEMBERSHIP</string>
+    <string name="sign_up_que">Membership Question Vivamus sagittis lacus vel augue laoreet rutrum auctor?</string>
+    <string name="signup_fb">SIGN UP WITH FACEBOOK</string>
+    <string name="iv_desc">IMAGE FOR LIST</string>
+
+    <!-- concierge custome dialog -->
+    <string name="conci_title">CONTACT CONCIERGE</string>
+    <string name="conci_desc">Always on hand, your concierge will do all they can to help your request.</string>
+    <string name="conci_call">Call</string>
+    <string name="conci_email">Email</string>
+
+    <!-- Add Card -->
+    <string name="card_num">Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="card_name">Card Holder\'s Name</string>
+    <string name="card_exp">EXPIRATION DATE</string>
+    <string name="scan_card">SCAN YOUR CARD</string>
+    <string name="delete_card">DELETE CARD</string>
+
+    <!-- activity_intro xml -->
+    <string name="login">LOG IN</string>
+    <string name="signup">SIGN UP</string>
+
+    <!-- EVENT DETAILS -->
+    <string name="date_time">DATE &amp; TIME</string>
+    <string name="details">DETAILS</string>
+    <string name="atmosphere">ATMOSPHERE</string>
+    <string name="music">MUSIC</string>
+    <string name="table">TABLE</string>
+    <string name="your_minimum_">YOUR MINIMUM</string>
+    <string name="deposit">DEPOSIT</string>
+    <string name="location">LOCATION</string>
+    <string name="cost">COST</string>
+    <string name="your_minimum1">You will be charged for the minimum amount once your InList concierge confirms your reservation by calling the phone number on your account.</string>
+    <string name="your_minimum2">The venue will bill you when you arrive. An InList concierge will confirm your reservation by calling the phone number on your account.</string>
+    <string name="your_minimum3">The venue will bill you when you arrive. Your InList concierge will obtain a quote for your RSVP after you place this request.</string>
+
+    <!-- Complete Purchase -->
+    <string name="payment_details">PAYMENT DETAILS</string>
+    <string name="total">TOTAL</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Tax</string>
+    <string name="gratuity">Gratuity</string>
+    <string name="tc">By tapping "Continue" I agree to the Terms and Conditions, and that:</string>
+    <string name="cp">COMPLETE PURCHASE</string>
+    <string name="tandc">TERMS &amp; CONDITIONS</string>
+    <string name="agreed">I have agreed to the Terms and Conditions, and that:</string>
+    <string name="quote">To request quote for this event, please enter number of Seats:</string>
+
+    <!-- Forgot Password -->
+    <string name="forget_pass_content">Enter your email address and we\'ll send you a link to reset your password.</string>
+    <string name="forget_edt_email_hint">Card holder\'s Name</string>
+    <string name="forget_txt_sent_link">An email with a link to reset you password has sent.</string>
+
+    <!-- vip_membership_screen xml -->
+    <string name="uploadphoto">Upload Photo of You</string>
+    <string name="annualincome">Annual Income</string>
+    <string name="musicpref">Music Preference</string>
+    <string name="income1">&lt;$100K</string>
+    <string name="income2">$100K-$300K</string>
+    <string name="income3">$300K-$1M</string>
+    <string name="income4">&gt;$1M</string>
+    <string name="submit">SUBMIT</string>
+    <string name="invitecode">Invite Code (Optional)</string>
+    <string name="occupation">Occupation, Company</string>
+    <string name="mfc">Most Frequented Clubs</string>
+    <string name="ocm">Other Club Memberships</string>
+
+    <!-- vip_membership_review xml -->
+    <string name="thanks">THANKS, YOUR</string>
+    <string name="vip_req">VIP MEMBERSHIP REQUEST</string>
+    <string name="under_review">IS UNDER REVIEW</string>
+    <string name="req_">Requests are processed in the order they are received.\n\nInList reviews a limited
+          number of applicants per month.\n\nAn InList concierge will attempt to phone you to confirm your details.</string>
+    <string name="meantime">In the meantime, please take a look at our upcoming events!</string>
+    <string name="check">CHECK THEM OUT</string>
+
+    <!-- Notification Settings Screen -->
+    <string name="pushnotification">PUSH NOTIFICATIONS</string>
+    <string name="textnotification">TEXT NOTIFICATIONS</string>
+    <string name="dailynotification">Daily Notifications</string>
+    <string name="billingissues">Billing Issues</string>
+
+    <!-- PurchaseSummary Screen -->
+    <string name="youarein">YOU\'RE IN</string>
+    <string name="venue">VENUE</string>
+    <string name="frnds">Tell your friends where you\'re headed!</string>
+
+    <!-- Profile Scree -->
+    <string name="update">Update</string>
+    <string name="cat">UPCOMING</string>
+    <string name="archive">ARCHIVE</string>
+
+    <!-- Array of 12 months -->
+    <string-array name="array_months">
+        <item>Month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+</resources>

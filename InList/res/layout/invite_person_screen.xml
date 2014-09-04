@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cell"
+    android:orientation="vertical"
+    android:weightSum="2" >
+
+    <EditText
+        android:id="@+id/edt_invite_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/invite_first_name"
+        android:inputType="textCapWords"
+        android:shadowColor="@color/light_yellow"
+        android:textColor="@color/light_yellow" />
+
+    <EditText
+        android:id="@+id/edt_invite_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/invite_last_name"
+        android:inputType="textCapWords"
+        android:shadowColor="@color/light_yellow"
+        android:textColor="@color/light_yellow" />
+
+    <EditText
+        android:id="@+id/edt_invite_e_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/invite_email"
+        android:inputType="textEmailAddress"
+        android:shadowColor="@color/light_yellow"
+        android:textColor="@color/light_yellow" />
+
+</LinearLayout>
